@@ -13,6 +13,8 @@
 
 ***2.对图形上下文进行操作
 
+***请参考customview.m
+
 ***3.关闭图形上下文路径
 
 ***CGContextClosePath(ctx);
