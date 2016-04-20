@@ -19,6 +19,7 @@
 		61817C461CC72D64005585E7 /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61817C451CC72D64005585E7 /* PieChartView.m */; };
 		61817C491CC72FF1005585E7 /* PieChartcontent.m in Sources */ = {isa = PBXBuildFile; fileRef = 61817C481CC72FF1005585E7 /* PieChartcontent.m */; };
 		61817C4C1CC75985005585E7 /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61817C4B1CC75985005585E7 /* TriangleView.m */; };
+		61817C4F1CC77172005585E7 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61817C4E1CC77172005585E7 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		61817C481CC72FF1005585E7 /* PieChartcontent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartcontent.m; sourceTree = "<group>"; };
 		61817C4A1CC75985005585E7 /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
 		61817C4B1CC75985005585E7 /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
+		61817C4D1CC77172005585E7 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		61817C4E1CC77172005585E7 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 			children = (
 				61817C3E1CC723EB005585E7 /* FundamentalFigureManager.h */,
 				61817C3F1CC723EB005585E7 /* FundamentalFigureManager.m */,
+				61817C4D1CC77172005585E7 /* CustomView.h */,
+				61817C4E1CC77172005585E7 /* CustomView.m */,
 				61817C4A1CC75985005585E7 /* TriangleView.h */,
 				61817C4B1CC75985005585E7 /* TriangleView.m */,
 				61817C441CC72D64005585E7 /* PieChartView.h */,
@@ -303,6 +308,7 @@
 				61817C401CC723EB005585E7 /* FundamentalFigureManager.m in Sources */,
 				61817C0F1CC7234E005585E7 /* AppDelegate.m in Sources */,
 				61817C491CC72FF1005585E7 /* PieChartcontent.m in Sources */,
+				61817C4F1CC77172005585E7 /* CustomView.m in Sources */,
 				61817C0C1CC7234E005585E7 /* main.m in Sources */,
 				61817C461CC72D64005585E7 /* PieChartView.m in Sources */,
 			);
@@ -530,6 +536,7 @@
 				61817C361CC7234E005585E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61817C371CC7234E005585E7 /* Build configuration list for PBXNativeTarget "FundamentalFigureTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +545,7 @@
 				61817C391CC7234E005585E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61817C3A1CC7234E005585E7 /* Build configuration list for PBXNativeTarget "FundamentalFigureUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +554,7 @@
 				61817C3C1CC7234E005585E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
